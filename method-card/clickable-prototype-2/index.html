@@ -1,0 +1,522 @@
+<!doctype html>
+
+<!--[if lt IE 7]><html lang="en-US" class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html lang="en-US" class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html lang="en-US" class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en-US" class="no-js"><!--<![endif]-->
+
+	<head>
+		<meta charset="utf-8">
+
+				<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<title>Design method toolkit  Clickable Prototype</title>
+
+				<meta name="HandheldFriendly" content="True">
+		<meta name="MobileOptimized" content="320">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+				<link rel="apple-touch-icon" href="../../wp-content/themes/DMT-Theme/library/images/apple-icon-touch.png.html">
+		<link rel="icon" href="../../wp-content/themes/DMT-Theme/favicon.png">
+		<!--[if IE]>
+			<link rel="shortcut icon" href="http://medialabamsterdam.com/toolkit/wp-content/themes/DMT-Theme/favicon.ico">
+		<![endif]-->
+				<meta name="msapplication-TileColor" content="#f01d4f">
+		<meta name="msapplication-TileImage" content="http://medialabamsterdam.com/toolkit/wp-content/themes/DMT-Theme/library/images/win8-tile-icon.png">
+
+		<link rel="pingback" href="../../xmlrpc.php.html">
+		
+		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Merriweather:400,900,900italic' rel='stylesheet' type='text/css'>
+
+    <script src="https://code.jquery.com/jquery-2.1.1.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.10.4/themes/flick/jquery-ui.css">
+
+				<link rel="alternate" type="application/rss+xml" title="Design method toolkit &raquo; Feed" href="../../feed/index.rss" />
+<link rel="alternate" type="application/rss+xml" title="Design method toolkit &raquo; Comments Feed" href="../../comments/feed/index.rss" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/medialabamsterdam.com\/toolkit\/wp-includes\/js\/wp-emoji-release.min.js"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='bones-stylesheet-css'  href='../../wp-content/themes/DMT-Theme/library/css/style.css' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='bones-ie-only-css'  href='http://medialabamsterdam.com/toolkit/wp-content/themes/DMT-Theme/library/css/ie.css' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='slider-stylesheet-css'  href='../../wp-content/themes/DMT-Theme/library/css/jquery-ui-slider-pips.css' type='text/css' media='all' />
+<link rel='stylesheet' id='A2A_SHARE_SAVE-css'  href='../../wp-content/plugins/add-to-any/addtoany.min.css' type='text/css' media='all' />
+<style id='A2A_SHARE_SAVE-inline-css' type='text/css'>.share_img, .share_bar { padding-top:10px;}
+</style>
+<script type='text/javascript' src='../../wp-content/themes/DMT-Theme/library/js/libs/modernizr.custom.min.js'></script>
+<script type='text/javascript' src='../../wp-includes/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='../../wp-includes/js/jquery/jquery-migrate.min.js'></script>
+<script type='text/javascript' src='../../wp-content/themes/DMT-Theme/library/js/libs/jquery-ui.min.js'></script>
+<script type='text/javascript' src='../../wp-content/themes/DMT-Theme/library/js/libs/tinynav.min.js'></script>
+<script type='text/javascript' src='../../wp-content/themes/DMT-Theme/library/js/libs/jquery.mixitup.min.js'></script>
+<script type='text/javascript' src='../../wp-content/themes/DMT-Theme/library/js/libs/jquery-ui-slider-pips.js'></script>
+<link rel='canonical' href='index.html' />
+<link rel='shortlink' href='index.html' />
+
+<script type="text/javascript"><!--
+var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:false,script_load:function(){var a=document.createElement('script'),s=document.getElementsByTagName('script')[0];a.type='text/javascript';a.async=true;a.src='http://static.addtoany.com/menu/page.js';s.parentNode.insertBefore(a,s);wpa2a.script_load=function(){};},script_onready:function(){wpa2a.script_ready=true;if(wpa2a.html_done)wpa2a.init();},init:function(){for(var i=0,el,target,targets=wpa2a.targets,length=targets.length;i<length;i++){el=document.getElementById('wpa2a_'+(i+1));target=targets[i];a2a_config.linkname=target.title;a2a_config.linkurl=target.url;if(el){a2a.init('page',{target:el});el.id='';}wpa2a.done=true;}wpa2a.targets=[];}};a2a_config.callbacks=a2a_config.callbacks||[];a2a_config.callbacks.push({ready:wpa2a.script_onready});
+var a2a_config = a2a_config || {};
+a2a_config.templates = {
+    twitter: "${title} ${link} @medialab020"
+};
+//--></script>
+		
+				<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		 
+		  ga('create', 'UA-29289194-3', 'auto');
+		  ga('send', 'pageview');
+		 
+		</script>
+			</head>
+
+	<body class="single single-method-card postid-1212">
+
+		<div id="container">
+      <div class="mobile-header">
+        <a href="http://www.medialabamsterdam.nl">
+          <img class="mobile-logo" src="../../wp-content/themes/DMT-Theme/library/images/medialab-logo.svg" alt="logo from the Amsterdam MediaLAB" title="Amsterdam mediaLAB logo" onerror="this.src='http://medialabamsterdam.com/toolkit/wp-content/themes/DMT-Theme/library/images/medialab-logo.png'"/>
+        </a>
+          
+          <div class="mobile-header-dots">
+            <a href="../../index.html">
+            <img width="60px" src="../../wp-content/themes/DMT-Theme/library/images/about_page/DMT_logo.svg" alt="back"></a>
+            <!--
+                          <div class="header_go_back"> 
+              <span>go back </span>
+                                <a href="http://medialabamsterdam.com/toolkit"> <img src="http://medialabamsterdam.com/toolkit/wp-content/themes/DMT-Theme/library/images/card_back.png" alt="back"></a>
+                                
+                
+              </div>
+                        -->
+          </div>
+      </div>
+			<header class="header" role="banner">
+
+				<div id="inner-header">
+
+										
+					<div id="logo">
+						<p>   </p>
+					</div>
+
+					<div id="dm">
+						<h1><a class="title-site" href="../../index.html" rel="nofollow">Design method toolkit</a></h1>
+					</div>
+
+            
+										
+
+					<nav role="navigation">
+						
+					</nav>
+
+				</div>
+
+			</header>
+			<!-- FILTER MENU -->
+      <div class="desktop-filter-sort-menu">
+        <div class="desktop-filter-sort-row">
+    			<div id="filter_menu">
+            <div class="filter-sub-cat-container">
+              <section class="filter-catg-box-left">
+      					<div id="filter_define-intentions" class="mixFilter filter-circle filter" data-filter=".define-intentions">
+      					</div>
+
+                <div id="filter_know-user" class="mixFilter filter-circle filter" data-filter=".know-user">
+                </div>
+
+                <div id="filter_frame-insights" class="mixFilter filter-circle filter" data-filter=".frame-insights">
+                </div>
+      				
+                <div id="filter_ideation-concept" class="mixFilter filter-circle filter" data-filter=".ideation-concept">
+                </div>
+      					
+      					<div id="filter_prototype-test" class="mixFilter filter-circle filter" data-filter=".prototype-test">
+      					</div>
+               </section>
+            </div>
+
+          
+            <div class="desktop-filter-select-container">
+                <div id="filter-unselect-all" class="filter" data-filter="none">
+                  <span class="helper"></span>
+                  <img src="../../wp-content/themes/DMT-Theme/library/images/deselect_all.svg"/> 
+                  <span>unselect all</span>
+                </div>
+            </div>
+
+             <div class="desktop-filter-category-container">
+                <section class="filter-catg-box-right">
+                  <div id="research" class="mixFilter filter" data-filter=".research">
+                  </div>
+                  <div id="create" class=" mixFilter filter" data-filter=".create">
+                  </div>
+                </section>
+             </div>
+             <div class="close-filter-container">
+                <img id="close" src="../../wp-content/themes/DMT-Theme/library/images/close.png">
+             </div>
+
+            
+    			</div>
+        </div>
+
+        <div class="desktop-filter-sort-row">
+          <div id="desktop-sort-menu">
+            <div class="sort-container">
+              <span class="sort-main-title">Sort By</span>
+            </div>
+            
+             <div class="name sort-container">
+              <span class="sort-title">NAME</span>
+              <img id="sort-name-asc" sort-type="name" data-mobile-sort="filter-sort-name-asc" data-sort="name:asc" class="desktop-sort active" src="../../wp-content/themes/DMT-Theme/library/images/az_selected.svg" onerror="this.src='http://medialabamsterdam.com/toolkit/wp-content/themes/DMT-Theme/library/images/az_selected.png'">
+              <img id="sort-name-desc" sort-type="name" data-mobile-sort="filter-sort-name-desc" data-sort="name:desc" class="desktop-sort" src="../../wp-content/themes/DMT-Theme/library/images/za_unselected.svg" onerror="this.src='http://medialabamsterdam.com/toolkit/wp-content/themes/DMT-Theme/library/images/za_unselected.png'">
+            </div>
+          </div>
+          <div class="desktop-filter-menu-spacer">
+            <div class="sort-container">
+              <span class="sort-main-title">Filter by </span>
+              
+            </div>
+
+            <div class="sort-container time-label">
+              <span class="sort-title">TIME</span>
+            </div>
+            <div class="sort-container time-slider">
+              <div class="slider"></div>
+            </div>
+              
+
+           
+          </div>
+        </div>
+      </div>
+			
+			
+			<div id="search_menu">
+				<form method="get" id="searchform" action="http://medialabamsterdam.com/toolkit/">
+	<div class="search_text">
+		<input type="hidden" value="method-card" name="post_type" id="post_type" />
+		<input type="search_card" size="put_a_size_here" name="s" id="s" value="Type a word" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;"/>
+	 <input id="search-submit-button" type="submit" value="Search">
+  </div>
+</form>				<div id="closeSearch">
+				</div>
+			</div>
+
+      <div class="mobile-search-container">
+        <form method="get" id="searchform" action="http://medialabamsterdam.com/toolkit/">
+	<div class="search_text">
+		<input type="hidden" value="method-card" name="post_type" id="post_type" />
+		<input type="search_card" size="put_a_size_here" name="s" id="s" value="Type a word" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;"/>
+	 <input id="search-submit-button" type="submit" value="Search">
+  </div>
+</form>      </div>
+
+			<div id="content">
+
+				<div id="inner-content" class="wrap cf">
+
+					<div id="main" class="m-all t-2of3 d-5of7 cf" role="main">
+
+						
+							
+              
+              <article class="card_page" id="post-1212" class="cf post-1212 method-card type-method-card status-publish hentry category_rc-create sub-category-prototype-test" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+			
+      <div id="card-desktop-layout"> <!-- Open desktop layout-->
+
+        <header class="card_title">
+            <h1 itemprop="headline">Clickable Prototype</h1> <!-- Title -->
+             <h3>  <!-- Summary -->
+              一个可点击的原型是一个原型：看起来，可能工作起来就像成品。 它模拟了拟议设计的美学。</h3>
+          </header> 
+
+        <section class="card_graph" ><!-- card -->
+          <div class="share_card"> <!-- share -->
+            <p> share this method on</p>
+          </div>
+          <div class="share_bar"> 
+            <div class="a2a_kit addtoany_list"><a class="a2a_button_facebook" href="http://www.addtoany.com/add_to/facebook?linkurl=http%3A%2F%2Fmedialabamsterdam.com%2Ftoolkit%2Fmethod-card%2Fclickable-prototype-2%2F&amp;linkname=Clickable%20Prototype" title="Facebook" rel="nofollow" target="_blank"><img src="../../wp-content/plugins/add-to-any/icons/facebook.png" width="16" height="16" alt="Facebook"/></a><a class="a2a_button_twitter" href="http://www.addtoany.com/add_to/twitter?linkurl=http%3A%2F%2Fmedialabamsterdam.com%2Ftoolkit%2Fmethod-card%2Fclickable-prototype-2%2F&amp;linkname=Clickable%20Prototype" title="Twitter" rel="nofollow" target="_blank"><img src="../../wp-content/plugins/add-to-any/icons/twitter.png" width="16" height="16" alt="Twitter"/></a><a class="a2a_button_linkedin" href="http://www.addtoany.com/add_to/linkedin?linkurl=http%3A%2F%2Fmedialabamsterdam.com%2Ftoolkit%2Fmethod-card%2Fclickable-prototype-2%2F&amp;linkname=Clickable%20Prototype" title="LinkedIn" rel="nofollow" target="_blank"><img src="../../wp-content/plugins/add-to-any/icons/linkedin.png" width="16" height="16" alt="LinkedIn"/></a></div>          </div>
+          
+          <div class="card_container"> <!-- card-container -->
+            <div id="card_fixed"> <!-- card content -->
+                    <div class="title"> <h1>
+                      Clickable Prototype                    </h1> </div>         
+                    
+                    <div class="card_front">
+                      <div class="icon">
+                        <img alt="../../files/2016/05/DMT_icons-25-wpcf_120x120.png" title="../../files/2016/05/DMT_icons-25-wpcf_120x120.png" src="../../files/2016/05/DMT_icons-25-wpcf_120x120.png" />                      </div>
+                    </div>
+                    
+                    <div class="card_bottom">
+                      <div class="cat-left prototype-test_box"></div><!-- closes the sub-category div-->                        
+                      
+                      <div class="time">
+                        <img src="../../wp-content/themes/DMT-Theme/library/images/clock.svg">
+                        <h2>1 DAY - 2 DAYS</h2> 
+                      </div>
+
+                      <div class="cat-right create_box"></div><!-- closes the category div-->    
+                    </div>
+            </div> <!-- close card content -->
+          </div><!-- close card-container -->
+
+          <div class="card_go"> <!-- prev, next -->
+
+          <!-- Card Go Back option 
+          <div class="card_go_back">  
+                            <a href="http://medialabamsterdam.com/toolkit"> <img src="http://medialabamsterdam.com/toolkit/wp-content/themes/DMT-Theme/library/images/card_back.png" alt="back"></a>
+                            <p>go back</p>
+            
+          </div>  
+          -->
+           <div class="card_go_back">  
+                              <a href="../break-uplove-letter/index.html">
+                <img src="../../wp-content/themes/DMT-Theme/library/images/arrow_left.svg" alt="back"></a>
+                <p>Previous Method</p>
+                          </div>
+
+            <div class="card_dmt">  <!-- DMT logo -->
+                <a href="../../index.html"><img width="70px" src="../../wp-content/themes/DMT-Theme/library/images/about_page/DMT_logo.svg" alt="back"></a>
+            </div>
+
+            <div class="card_go_next">  
+                              <a href="../co-discovery-2/index.html">
+                <img src="../../wp-content/themes/DMT-Theme/library/images/arrow_right.svg" alt="back"></a>
+                <p>Next Method</p>
+                          </div>
+              
+            
+          </div><!-- end prev, next -->
+
+
+          
+        </section><!-- Close card -->
+
+        <section class="card_tasks"><!-- Tasks -->
+         
+            <p class="bold"> <!-- Title -->
+              准备任务
+            </p>
+
+            <div class="card_text">   
+              <p><!-- Tasks content -->
+              <p>1. 创建一个基于被认为有希望的概念的设计。<br />
+2. 映射出用户想要的导航和行为，定义按钮，屏幕和动画的外观和感觉。<br />
+3. 构建原型，这可以通过编程或使用为其设计的特殊软件来完成。<br />
+4. 招募参与者并请他们测试你的原型，给他们任务，并要求他们完成他们。<br />
+5. 记录测试，如果可能，记录参与者和屏幕。<br />
+6. 收集结果并进行分析。</p>
+              </p>  
+            </div>
+          
+        </section><!-- Close Tasks -->
+
+
+        <section class="card_ww"><!-- When, Why, etc -->
+                    <div class="feature"><!-- When content -->
+            <h2>何时用？</h2> <!-- When Title -->
+            <p>一旦一个想法发展到，需要输入用户行为时.</p>
+          </div><!-- end When content -->
+          
+                    <div class="feature"><!-- Why content -->
+            <h2>目的</h2> <!-- Why Title -->
+            <p>检查设计是否符合预期。</p>
+          </div><!-- end Why content -->
+          
+                    <div class="feature"><!-- Note content -->
+            <h2>注意！</h2> <!-- Note Title -->
+            <p>互联网上有很多原型制作工具。 用尽可能多的人测试你的原型。</p>
+          </div><!-- end Note content -->
+          
+                    <div class="feature"><!-- Output content -->
+            <h2>输出</h2> <!-- Output Title -->
+            <p>概述哪些问题是项目的核心，哪些是具体的。</p>
+          </div><!-- end Output content -->
+          
+                    <div class="feature"><!-- Next content -->
+            <h2>下一步</h2> <!-- Next Title -->
+            <p>评估，处理，调整，迭代。 确定程序最终版本。</p>
+          </div><!-- end Next content -->
+          
+                    <div class="feature"><!-- Resource content -->
+            <h2>参考</h2> <!-- Resource Title -->
+            <p>RUDD, Jim; STERN, Ken; ISENSEE, Scott. Low vs. high-fidelity prototyping debate. interactions, 1996, 3.1: 76-85. GO, Kentaro; HIRAYAMA, Jun'ichi. Trapco: Website Design by Transforming Paper-based Prototypes to Computer-based Prototypes. In: Mobile Data Management, 2006. MDM 2006. 7th International Conference on. IEEE, 2006. p. 133-133./</p>
+          </div><!-- end Resource content -->
+                    
+        </section><!-- Close When, Why, etc -->
+
+      </div> <!-- Close desktop layout-->
+
+
+      <!-- MOBILE LAYOUT!!!!! -->
+
+      <div id="card-mobile-layout"> <!-- Start Mobile Layout ...card_title-->
+        <div class="main_content">
+          <header class="mobile_header">
+
+            <div class="card_go_back previousMethod">  
+                              <a href="../break-uplove-letter/index.html">
+                <img src="../../wp-content/themes/DMT-Theme/library/images/mobile_arrow_left.svg" alt="back"></a>
+                          </div>
+
+            <div class="card_page_icon">
+              <img alt="../../files/2016/05/DMT_icons-25-wpcf_1024x1024.png" title="../../files/2016/05/DMT_icons-25-wpcf_1024x1024.png" class="attachment-large" src="../../files/2016/05/DMT_icons-25-wpcf_1024x1024.png" />            </div>
+
+					  <div class="card_mobile_title">
+  					  <h1 itemprop="headline">Clickable Prototype</h1>
+              <div class="card_page_time">
+               <div class="cat-left prototype-test_box"></div><!-- closes the sub-category div--><div class="cat-right create_box"></div><!-- closes the category div-->              
+                <h2> <img src="../../wp-content/themes/DMT-Theme/library/images/clock.svg"> 1 DAY - 2 DAYS</h2>
+              </div>
+            </div>
+
+            <div class="card_go_next nextMethod">  
+                              <a href="../co-discovery-2/index.html">
+                <img src="../../wp-content/themes/DMT-Theme/library/images/mobile_arrow_right.svg" alt="back"></a>
+                          </div>
+
+					</header> 
+				</div> <!-- close main content -->
+
+
+        <section class="card_text" itemprop="articleBody"> <!-- card body -->
+          <div class="card_text">
+            <h3>  <!-- Summary -->
+              A clickable prototype is a prototype that looks like and may work just like the finished product. It simulates the aesthetics of a proposed design.            </h3>
+
+            <div class="feature">
+              TASKS 
+            </div>
+    
+            <p class="card_text">
+            <p>1. Create a design, based on a concept that has been deemed promising.<br />
+2. Map out the navigation and behavior that is wanted from the users, define the look and feel of buttons, screens and animations.<br />
+3. Build the prototype, this can be done by programming or using special software that is designed for it.<br />
+4. Recruit participants and ask them to test your prototype, give them tasks and ask them to complete them.<br />
+5. Do a recording of the test, if possible record both the participant and the screen.<br />
+6. Collect the results and analyze them.</p>
+            </p>  
+          </div>
+          
+          <section><!-- When, Why, etc -->
+                    <div class="feature"><!-- When content -->
+            <h2>WHEN</h2> <!-- When Title -->
+            <p>Once an idea has been developed enough and needs input on user behavior with it.</p>
+          </div><!-- end When content -->
+          
+                    <div class="feature"><!-- Why content -->
+            <h2>WHY</h2> <!-- Why Title -->
+            <p>To check if the design behaves as intended.</p>
+          </div><!-- end Why content -->
+          
+                    <div class="feature"><!-- Note content -->
+            <h2>NOTE!</h2> <!-- Note Title -->
+            <p>There are a lot of prototype building apps out there on the internet. Test the prototype with as many people as possible.</p>
+          </div><!-- end Note content -->
+          
+                    <div class="feature"><!-- Output content -->
+            <h2>OUTPUT</h2> <!-- Output Title -->
+            <p>An overview of which problems are at the core of a project, and which are concrete.</p>
+          </div><!-- end Output content -->
+          
+                    <div class="feature"><!-- Next content -->
+            <h2>Next</h2> <!-- Next Title -->
+            <p>Evaluate, process, adjust, iterate. Program final version.</p>
+          </div><!-- end Next content -->
+          
+                    <div class="feature"><!-- Resource content -->
+            <h2>Reference</h2> <!-- Resource Title -->
+            <p>RUDD, Jim; STERN, Ken; ISENSEE, Scott. Low vs. high-fidelity prototyping debate. interactions, 1996, 3.1: 76-85. GO, Kentaro; HIRAYAMA, Jun'ichi. Trapco: Website Design by Transforming Paper-based Prototypes to Computer-based Prototypes. In: Mobile Data Management, 2006. MDM 2006. 7th International Conference on. IEEE, 2006. p. 133-133./</p>
+          </div><!-- end Resource content -->
+                    
+        </section><!-- Close When, Why, etc -->
+
+            <div class="other_content">           
+            <div class="share_card">
+              <p> share this method on</p>
+            </div>  
+            <div class="share_bar"> 
+              <div class="a2a_kit addtoany_list"><a class="a2a_button_facebook" href="http://www.addtoany.com/add_to/facebook?linkurl=http%3A%2F%2Fmedialabamsterdam.com%2Ftoolkit%2Fmethod-card%2Fclickable-prototype-2%2F&amp;linkname=Clickable%20Prototype" title="Facebook" rel="nofollow" target="_blank"><img src="../../wp-content/plugins/add-to-any/icons/facebook.png" width="16" height="16" alt="Facebook"/></a><a class="a2a_button_twitter" href="http://www.addtoany.com/add_to/twitter?linkurl=http%3A%2F%2Fmedialabamsterdam.com%2Ftoolkit%2Fmethod-card%2Fclickable-prototype-2%2F&amp;linkname=Clickable%20Prototype" title="Twitter" rel="nofollow" target="_blank"><img src="../../wp-content/plugins/add-to-any/icons/twitter.png" width="16" height="16" alt="Twitter"/></a><a class="a2a_button_linkedin" href="http://www.addtoany.com/add_to/linkedin?linkurl=http%3A%2F%2Fmedialabamsterdam.com%2Ftoolkit%2Fmethod-card%2Fclickable-prototype-2%2F&amp;linkname=Clickable%20Prototype" title="LinkedIn" rel="nofollow" target="_blank"><img src="../../wp-content/plugins/add-to-any/icons/linkedin.png" width="16" height="16" alt="LinkedIn"/></a></div>            </div>
+          </div>
+						
+
+      </div>
+						
+
+					<div class="case_study_container">
+					
+										</div>
+					
+                  
+                </section> 
+                <footer class="article-footer">
+
+                </footer> 
+               
+
+              </article> 
+						
+						
+					</div>
+
+				</div>
+
+			</div>
+
+			<footer class="footer" role="contentinfo">
+    			
+	
+					<div class="footer_text">
+						<p>share the toolkit</p>
+					</div>
+
+					<div class="share_bar">	
+							
+							<div class="a2a_kit a2a_kit_size_32 addtoany_list"><a class="a2a_button_facebook" href="http://www.addtoany.com/add_to/facebook?linkurl=http%3A%2F%2Fmedialabamsterdam.com%2Ftoolkit&amp;linkname=Design%20Methods%20-%20toolkit" title="Facebook" rel="nofollow" target="_blank"><img src="../../wp-content/plugins/add-to-any/icons/facebook.png" width="16" height="16" alt="Facebook"/></a><a class="a2a_button_twitter" href="http://www.addtoany.com/add_to/twitter?linkurl=http%3A%2F%2Fmedialabamsterdam.com%2Ftoolkit&amp;linkname=Design%20Methods%20-%20toolkit" title="Twitter" rel="nofollow" target="_blank"><img src="../../wp-content/plugins/add-to-any/icons/twitter.png" width="16" height="16" alt="Twitter"/></a><a class="a2a_button_linkedin" href="http://www.addtoany.com/add_to/linkedin?linkurl=http%3A%2F%2Fmedialabamsterdam.com%2Ftoolkit&amp;linkname=Design%20Methods%20-%20toolkit" title="LinkedIn" rel="nofollow" target="_blank"><img src="../../wp-content/plugins/add-to-any/icons/linkedin.png" width="16" height="16" alt="LinkedIn"/></a></div>						
+					</div>
+
+					    
+				
+
+				<div id="logo_acin">
+					<img width="70px" src="../../wp-content/themes/DMT-Theme/library/images/ACIN_logo.svg" alt="back"></a>
+				</div>
+
+			</footer>
+
+      
+
+		</div>
+
+				
+<script type="text/javascript"><!--
+wpa2a.targets=[];
+wpa2a.html_done=true;if(wpa2a.script_ready&&!wpa2a.done)wpa2a.init();wpa2a.script_load();
+//--></script>
+<script type='text/javascript' src='../../wp-content/themes/DMT-Theme/library/js/scripts.js'></script>
+
+	</body>
+
+</html> <!-- end of site. what a ride! -->

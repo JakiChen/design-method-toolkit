@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Design method toolkit</title>
+	<atom:link href="http://medialabamsterdam.com/toolkit/feed/" rel="self" type="application/rss+xml" />
+	<link>http://medialabamsterdam.com/toolkit</link>
+	<description>Design method toolkit for multidisciplinary design research, developed by MediaLAB Amsterdam</description>
+	<lastBuildDate>Thu, 08 Sep 2016 14:54:04 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	
+	<item>
+		<title>1-on-1 interview</title>
+		<link>http://medialabamsterdam.com/toolkit/2016/04/11/1-on-1-interview-2/</link>
+		<comments>http://medialabamsterdam.com/toolkit/2016/04/11/1-on-1-interview-2/#comments</comments>
+		<pubDate>Mon, 11 Apr 2016 08:16:14 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://localhost:8888/dev.medialab/2016/04/11/1-on-1-interview-2/</guid>
+		<description><![CDATA[1. Specify the goal of the interview and select questions and subjects around the topic carefully. 2. Define if there is a need for a structured interview or semi-structured interview. Structured interviews have a clear guide that needs to be followed, semi-structured interviews allow for flexibility within the interview. 3. Conduct a pre-interview during the...  <a class="excerpt-read-more" href="http://medialabamsterdam.com/toolkit/2016/04/11/1-on-1-interview-2/" title="Read 1-on-1 interview">Read more &#187;</a>]]></description>
+				<content:encoded><![CDATA[<p>1.  Specify the goal of the interview and select questions and subjects around the topic carefully.<br />
+2. Define if there is a need for a structured interview or semi-structured interview. Structured interviews have a clear guide that needs to be followed, semi-structured interviews allow for flexibility within the interview.<br />
+3. Conduct a pre-interview during the recruitment phase, to refine the guide.<br />
+4. Talk, watch, listen and observe as you conduct the interview.<br />
+5. Document the interview by recording audio/video (if possible) and take notes.<br />
+6. Analyze and compare the information gathered from the interview(s).</p>
+]]></content:encoded>
+			<wfw:commentRss>http://medialabamsterdam.com/toolkit/2016/04/11/1-on-1-interview-2/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>1-on-1 interview</title>
+		<link>http://medialabamsterdam.com/toolkit/2016/02/16/1-on-1-interview/</link>
+		<comments>http://medialabamsterdam.com/toolkit/2016/02/16/1-on-1-interview/#comments</comments>
+		<pubDate>Tue, 16 Feb 2016 16:40:56 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://localhost:8888/dev.medialab/2016/02/16/1-on-1-interview/</guid>
+		<description><![CDATA[1. Specify the goal of the interview and select questions and subjects around the topic carefully. 2. Define if there is a need for a structured interview or semi-structured interview. Structured interviews have a clear guide that needs to be followed, semi-structured interviews allow for flexibility within the interview. 3. Conduct a pre-interview during the...  <a class="excerpt-read-more" href="http://medialabamsterdam.com/toolkit/2016/02/16/1-on-1-interview/" title="Read 1-on-1 interview">Read more &#187;</a>]]></description>
+				<content:encoded><![CDATA[<p>1.  Specify the goal of the interview and select questions and subjects around the topic carefully.<br />
+2. Define if there is a need for a structured interview or semi-structured interview. Structured interviews have a clear guide that needs to be followed, semi-structured interviews allow for flexibility within the interview.<br />
+3. Conduct a pre-interview during the recruitment phase, to refine the guide.<br />
+4. Talk, watch, listen and observe as you conduct the interview.<br />
+5. Document the interview by recording audio/video (if possible) and take notes.<br />
+6. Analyze and compare the information gathered from the interview(s).</p>
+]]></content:encoded>
+			<wfw:commentRss>http://medialabamsterdam.com/toolkit/2016/02/16/1-on-1-interview/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Hello world!</title>
+		<link>http://medialabamsterdam.com/toolkit/2016/02/10/hello-world-2-2/</link>
+		<comments>http://medialabamsterdam.com/toolkit/2016/02/10/hello-world-2-2/#comments</comments>
+		<pubDate>Wed, 10 Feb 2016 11:28:27 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://localhost:8888/dev.medialab/?p=1</guid>
+		<description><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]]></description>
+				<content:encoded><![CDATA[<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://medialabamsterdam.com/toolkit/2016/02/10/hello-world-2-2/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Hello world!</title>
+		<link>http://medialabamsterdam.com/toolkit/2015/01/20/hello-world/</link>
+		<comments>http://medialabamsterdam.com/toolkit/2015/01/20/hello-world/#comments</comments>
+		<pubDate>Tue, 20 Jan 2015 08:15:14 +0000</pubDate>
+		<dc:creator><![CDATA[Rene]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://medialabamsterdam.com/toolkit/?p=1</guid>
+		<description><![CDATA[Welcome to MediaLAB Amsterdam Sites. This is your first post. Edit or delete it, then start blogging!]]></description>
+				<content:encoded><![CDATA[<p>Welcome to <a href="http://medialabamsterdam.com/">MediaLAB Amsterdam Sites</a>. This is your first post. Edit or delete it, then start blogging!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://medialabamsterdam.com/toolkit/2015/01/20/hello-world/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Hello world!</title>
+		<link>http://medialabamsterdam.com/toolkit/2014/10/14/hello-world-2/</link>
+		<comments>http://medialabamsterdam.com/toolkit/2014/10/14/hello-world-2/#comments</comments>
+		<pubDate>Tue, 14 Oct 2014 07:39:10 +0000</pubDate>
+		<dc:creator><![CDATA[Rene]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://dev-medialabamsterdam.com/design-methods/?p=1</guid>
+		<description><![CDATA[Welcome to MediaLAB Amsterdam Sites. This is your first post. Edit or delete it, then start blogging!]]></description>
+				<content:encoded><![CDATA[<p>Welcome to <a href="http://dev-medialabamsterdam.com/">MediaLAB Amsterdam Sites</a>. This is your first post. Edit or delete it, then start blogging!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://medialabamsterdam.com/toolkit/2014/10/14/hello-world-2/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>[CSV Importer] Test</title>
+		<link>http://medialabamsterdam.com/toolkit/2000/12/31/csv-importer-test/</link>
+		<comments>http://medialabamsterdam.com/toolkit/2000/12/31/csv-importer-test/#comments</comments>
+		<pubDate>Sun, 31 Dec 2000 20:00:12 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Testing CSV Importer]]></category>
+		<category><![CDATA[Testing CSV Importer 2]]></category>
+		<category><![CDATA[csv]]></category>
+		<category><![CDATA[test]]></category>
+
+		<guid isPermaLink="false">http://localhost:8888/dev.medialab/2000/12/31/csv-importer-test/</guid>
+		<description><![CDATA[This is an excerpt for a CSV Importer test post.]]></description>
+				<content:encoded><![CDATA[<p>Don&#8217;t panic, this is only a test.</p>
+<p>The <a href="http://wordpress.org/extend/plugins/csv-importer/other_notes/">manual</a> has a lot of useful information.</p>
+<p>Unsurprisingly, one of the most frequently asked questions is &#8220;What should I do if my data has commas and double quotes?&#8221;.</p>
+<p><em>CSV Importer</em> can be used with any language (just make sure to save the file with UTF-8 encoding):</p>
+<blockquote><p>
+A comma-separated values or character-separated values (CSV) file is a simple text format for a database table.</p>
+<p>Comma-separated values (CSV) est un format informatique ouvert représentant des données tabulaires sous forme de « valeurs séparées par des virgules ».</p>
+<p>CSV (от англ. Comma Separated Values — значения, разделённые запятыми) — текстовый формат, предназначенный для представления табличных данных.</p>
+<p>Comma-Separated Values（略称：CSV）は、いくつかのフィールド（項目）をカンマ「,」で区切ったテキストデータおよびテキストファイル。
+</p>
+</blockquote>
+]]></content:encoded>
+			<wfw:commentRss>http://medialabamsterdam.com/toolkit/2000/12/31/csv-importer-test/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

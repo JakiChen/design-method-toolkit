@@ -1,0 +1,536 @@
+
+<!doctype html>
+
+<!--[if lt IE 7]><html lang="en-US" class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html lang="en-US" class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html lang="en-US" class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en-US" class="no-js"><!--<![endif]-->
+
+	<head>
+		<meta charset="utf-8">
+
+				<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<title>Design method toolkit  Using the toolkit</title>
+
+				<meta name="HandheldFriendly" content="True">
+		<meta name="MobileOptimized" content="320">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+				<link rel="apple-touch-icon" href="../wp-content/themes/DMT-Theme/library/images/apple-icon-touch.png.html">
+		<link rel="icon" href="../wp-content/themes/DMT-Theme/favicon.png">
+		<!--[if IE]>
+			<link rel="shortcut icon" href="http://medialabamsterdam.com/toolkit/wp-content/themes/DMT-Theme/favicon.ico">
+		<![endif]-->
+				<meta name="msapplication-TileColor" content="#f01d4f">
+		<meta name="msapplication-TileImage" content="http://medialabamsterdam.com/toolkit/wp-content/themes/DMT-Theme/library/images/win8-tile-icon.png">
+
+		<link rel="pingback" href="../xmlrpc.php.html">
+		
+		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Merriweather:400,900,900italic' rel='stylesheet' type='text/css'>
+
+    <script src="https://code.jquery.com/jquery-2.1.1.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.10.4/themes/flick/jquery-ui.css">
+
+				<link rel="alternate" type="application/rss+xml" title="Design method toolkit &raquo; Feed" href="../feed/index.rss" />
+<link rel="alternate" type="application/rss+xml" title="Design method toolkit &raquo; Comments Feed" href="../comments/feed/index.rss" />
+<link rel="alternate" type="application/rss+xml" title="Design method toolkit &raquo; Using the toolkit Comments Feed" href="feed/index.rss" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/medialabamsterdam.com\/toolkit\/wp-includes\/js\/wp-emoji-release.min.js"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='bones-stylesheet-css'  href='../wp-content/themes/DMT-Theme/library/css/style.css' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='bones-ie-only-css'  href='http://medialabamsterdam.com/toolkit/wp-content/themes/DMT-Theme/library/css/ie.css' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='slider-stylesheet-css'  href='../wp-content/themes/DMT-Theme/library/css/jquery-ui-slider-pips.css' type='text/css' media='all' />
+<link rel='stylesheet' id='A2A_SHARE_SAVE-css'  href='../wp-content/plugins/add-to-any/addtoany.min.css' type='text/css' media='all' />
+<style id='A2A_SHARE_SAVE-inline-css' type='text/css'>.share_img, .share_bar { padding-top:10px;}
+</style>
+<script type='text/javascript' src='../wp-content/themes/DMT-Theme/library/js/libs/modernizr.custom.min.js'></script>
+<script type='text/javascript' src='../wp-includes/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='../wp-includes/js/jquery/jquery-migrate.min.js'></script>
+<script type='text/javascript' src='../wp-content/themes/DMT-Theme/library/js/libs/jquery-ui.min.js'></script>
+<script type='text/javascript' src='../wp-content/themes/DMT-Theme/library/js/libs/tinynav.min.js'></script>
+<script type='text/javascript' src='../wp-content/themes/DMT-Theme/library/js/libs/jquery.mixitup.min.js'></script>
+<script type='text/javascript' src='../wp-content/themes/DMT-Theme/library/js/libs/jquery-ui-slider-pips.js'></script>
+<link rel='canonical' href='index.html' />
+<link rel='shortlink' href='index.html' />
+
+<script type="text/javascript"><!--
+var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:false,script_load:function(){var a=document.createElement('script'),s=document.getElementsByTagName('script')[0];a.type='text/javascript';a.async=true;a.src='http://static.addtoany.com/menu/page.js';s.parentNode.insertBefore(a,s);wpa2a.script_load=function(){};},script_onready:function(){wpa2a.script_ready=true;if(wpa2a.html_done)wpa2a.init();},init:function(){for(var i=0,el,target,targets=wpa2a.targets,length=targets.length;i<length;i++){el=document.getElementById('wpa2a_'+(i+1));target=targets[i];a2a_config.linkname=target.title;a2a_config.linkurl=target.url;if(el){a2a.init('page',{target:el});el.id='';}wpa2a.done=true;}wpa2a.targets=[];}};a2a_config.callbacks=a2a_config.callbacks||[];a2a_config.callbacks.push({ready:wpa2a.script_onready});
+var a2a_config = a2a_config || {};
+a2a_config.templates = {
+    twitter: "${title} ${link} @medialab020"
+};
+//--></script>
+		
+				<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		 
+		  ga('create', 'UA-29289194-3', 'auto');
+		  ga('send', 'pageview');
+		 
+		</script>
+			</head>
+
+	<body class="page page-id-315 page-template page-template-page-landing page-template-page-landing-php">
+
+		<div id="container">
+      <div class="mobile-header">
+        <a href="http://www.medialabamsterdam.nl">
+          <img class="mobile-logo" src="../wp-content/themes/DMT-Theme/library/images/medialab-logo.svg" alt="logo from the Amsterdam MediaLAB" title="Amsterdam mediaLAB logo" onerror="this.src='http://medialabamsterdam.com/toolkit/wp-content/themes/DMT-Theme/library/images/medialab-logo.png'"/>
+        </a>
+          
+          <div class="mobile-header-dots">
+            <a href="../index.html">
+            <img width="60px" src="../wp-content/themes/DMT-Theme/library/images/about_page/DMT_logo.svg" alt="back"></a>
+            <!--
+                        -->
+          </div>
+      </div>
+			<header class="header" role="banner">
+
+				<div id="inner-header">
+
+										
+					<div id="logo">
+						<p><a href="#" rel="nofollow"><img src="../wp-content/themes/DMT-Theme/library/images/medialab-logo.svg" alt="MediaLAB Amsterdam"/></a></p>
+					</div>
+
+					<div id="dm">
+						<h1><a class="title-site" href="../index.html" rel="nofollow">Design method toolkit</a></h1>
+					</div>
+
+          <a href="https://docs.google.com/forms/d/1Lm_6h3AlFZjXxDk8GfXkRyUK19fFBrtj0t22ZO7m8yw/viewform?embedded=true" target="_blank" rel="nofollow">
+            <div id="order">
+            <h3>order</h3>
+            </div>
+          </a>
+					<div id="search">
+						<h3>search</h3>
+					</div>
+
+					<div id="filter">
+						<h3>filter methods</h3>
+					</div>
+
+					<a href="index.html" rel="nofollow">
+						<div id="howto">
+						<h3>about</h3>
+						</div>
+					</a>
+										
+
+					<nav role="navigation">
+						
+					</nav>
+
+				</div>
+
+			</header>
+			<!-- FILTER MENU -->
+      <div class="desktop-filter-sort-menu">
+        <div class="desktop-filter-sort-row">
+    			<div id="filter_menu">
+            <div class="filter-sub-cat-container">
+              <section class="filter-catg-box-left">
+      					<div id="filter_define-intentions" class="mixFilter filter-circle filter" data-filter=".define-intentions">
+      					</div>
+
+                <div id="filter_know-user" class="mixFilter filter-circle filter" data-filter=".know-user">
+                </div>
+
+                <div id="filter_frame-insights" class="mixFilter filter-circle filter" data-filter=".frame-insights">
+                </div>
+      				
+                <div id="filter_ideation-concept" class="mixFilter filter-circle filter" data-filter=".ideation-concept">
+                </div>
+      					
+      					<div id="filter_prototype-test" class="mixFilter filter-circle filter" data-filter=".prototype-test">
+      					</div>
+               </section>
+            </div>
+
+          
+            <div class="desktop-filter-select-container">
+                <div id="filter-unselect-all" class="filter" data-filter="none">
+                  <span class="helper"></span>
+                  <img src="../wp-content/themes/DMT-Theme/library/images/deselect_all.svg"/> 
+                  <span>unselect all</span>
+                </div>
+            </div>
+
+             <div class="desktop-filter-category-container">
+                <section class="filter-catg-box-right">
+                  <div id="research" class="mixFilter filter" data-filter=".research">
+                  </div>
+                  <div id="create" class=" mixFilter filter" data-filter=".create">
+                  </div>
+                </section>
+             </div>
+             <div class="close-filter-container">
+                <img id="close" src="../wp-content/themes/DMT-Theme/library/images/close.png">
+             </div>
+
+            
+    			</div>
+        </div>
+
+        <div class="desktop-filter-sort-row">
+          <div id="desktop-sort-menu">
+            <div class="sort-container">
+              <span class="sort-main-title">Sort By</span>
+            </div>
+            
+             <div class="name sort-container">
+              <span class="sort-title">NAME</span>
+              <img id="sort-name-asc" sort-type="name" data-mobile-sort="filter-sort-name-asc" data-sort="name:asc" class="desktop-sort active" src="../wp-content/themes/DMT-Theme/library/images/az_selected.svg" onerror="this.src='http://medialabamsterdam.com/toolkit/wp-content/themes/DMT-Theme/library/images/az_selected.png'">
+              <img id="sort-name-desc" sort-type="name" data-mobile-sort="filter-sort-name-desc" data-sort="name:desc" class="desktop-sort" src="../wp-content/themes/DMT-Theme/library/images/za_unselected.svg" onerror="this.src='http://medialabamsterdam.com/toolkit/wp-content/themes/DMT-Theme/library/images/za_unselected.png'">
+            </div>
+          </div>
+          <div class="desktop-filter-menu-spacer">
+            <div class="sort-container">
+              <span class="sort-main-title">Filter by </span>
+              
+            </div>
+
+            <div class="sort-container time-label">
+              <span class="sort-title">TIME</span>
+            </div>
+            <div class="sort-container time-slider">
+              <div class="slider"></div>
+            </div>
+              
+
+           
+          </div>
+        </div>
+      </div>
+			
+			
+			<div id="search_menu">
+				<form method="get" id="searchform" action="http://medialabamsterdam.com/toolkit/">
+	<div class="search_text">
+		<input type="hidden" value="method-card" name="post_type" id="post_type" />
+		<input type="search_card" size="put_a_size_here" name="s" id="s" value="Type a word" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;"/>
+	 <input id="search-submit-button" type="submit" value="Search">
+  </div>
+</form>				<div id="closeSearch">
+				</div>
+			</div>
+
+      <div class="mobile-search-container">
+        <form method="get" id="searchform" action="http://medialabamsterdam.com/toolkit/">
+	<div class="search_text">
+		<input type="hidden" value="method-card" name="post_type" id="post_type" />
+		<input type="search_card" size="put_a_size_here" name="s" id="s" value="Type a word" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;"/>
+	 <input id="search-submit-button" type="submit" value="Search">
+  </div>
+</form>      </div>
+
+			<div id="container">
+
+				
+					
+<div class="desktop-using-toolkit-container">
+<div class="about-section1">
+
+<span class="about-header"> About </span>
+<img class="alignnone size-full wp-image-1143" src="../files/2016/06/DMT_logo.png" alt="DMT_logo" width="106" height="77" />
+<div id="img-text"><img class="size-full wp-image-1151 aligncenter" src="../files/2016/06/about.jpg" alt="about" width="794" height="529" /><span class="inline-img">
+The MediaLAB Amsterdam Design Method Toolkit enables you to get started and enrich your design process. A collection of design and research methods: categorised to help you select, time based to help you plan. Plan and execute your design research, ideation, experimentation and creation within short iterations.
+</span></div>
+</div>
+<div class="about-section2">
+
+<span class="about-header"> Agile based </span>
+<div id="section2-img"><img class="alignnone size-medium wp-image-1144" src="../files/2016/06/agile_world-300x236.png" alt="agile_world" width="300" height="236" /></div>
+<div id="section2-text">
+
+Detailed task-based descriptions help teams divide and assign tasks between team members. This makes the Design Method Toolkit perfect for lean, agile environments and multidisciplinary teams.
+
+Use the Design Method Toolkit in combination with the DMT Plan Board, your Scrum Board and experience it’s full potential!
+
+</div>
+</div>
+<div class="about-section3">
+<div><span class="about-header"> Select</span> <span class="about-header-r"> Execute </span></div>
+<div class="about-section3-img"><img class="wp-image-1240 size-full aligncenter" src="../files/2016/06/select_execute.png" alt="select_execute" width="1012" height="378" /></div>
+</div>
+<div class="about-section4">
+<div><span class="about-research"> Research </span> <span class="about-create"> Create </span></div>
+<div class="about-section4-1">In an ideal design process there is a constant flow between researching and creating. That is why these cards are divided into two types, Research and Create.</div>
+<div class="about-section4-2"><img class="aligncenter size-full wp-image-1161" src="../files/2016/06/translate_horizontal.png" alt="translate_horizontal" width="651" height="120" /></div>
+<div class="about-section4-3">
+<div class="about-section4-3-research">Research focuses on gathering information and making sense of it.
+The results of the research methods will give you insights that will supply new design criteria.</div>
+<div class="about-section4-3-create">Create focuses on having a tangible object (report, visualization, prototype, etc) that you can show.
+The output of the create methods may propose new research material.</div>
+</div>
+</div>
+<div class="about-section5">
+<div class="about-section5-row">
+<div class="about-logo"><img class="aligncenter size-full wp-image-1157" src="../files/2016/06/know_user_large.png" alt="know_user_large" width="95" height="120" /></div>
+<div class="about-description">
+
+<span class="about-know-user"> Know User </span>
+<div class="about-description-text">
+
+Explore the background of the project, the context, the situation, location, time and social/technical context.Get to know the people involved, their wants, goals, needs and feelings.
+
+</div>
+</div>
+<div class="about-image">
+
+<img class="alignnone size-full wp-image-1149" src="../files/2016/06/know_user.png" alt="know_user" width="250" height="250" />
+
+</div>
+</div>
+<div class="about-section5-row">
+<div class="about-logo"><img class="aligncenter size-full wp-image-1154" src="../files/2016/06/define_intentions_large.png" alt="define_intentions_large" width="120" height="120" /></div>
+<div class="about-description">
+
+<span class="about-define-intentions"> Define Intentions </span>
+<div class="about-description-text">
+
+Define your challenge’s vision, objectives, scenarios, scopes and constraints.Ask yourself questions that relate to the why, what and who of your challenge and sense what trends, opportunities and possible constraints might affect it in the process.
+
+</div>
+</div>
+<div class="about-image"><img class="alignnone size-full wp-image-1146" src="../files/2016/06/define_intentions.png" alt="define_intentions" width="250" height="250" /></div>
+</div>
+<div class="about-section5-row">
+<div class="about-logo"><img class="aligncenter size-full wp-image-1155" src="../files/2016/06/frame_insights_large.png" alt="frame_insights_large" width="120" height="120" /></div>
+<div class="about-description">
+
+<span class="about-frame-insights"> Frame insights </span>
+<div class="about-description-text">
+
+Draw conclusions from your research and make lessons learned explicit. Try to narrow down the information.Can you extract the most valuable and important elements from your insights? What impact will these insights have on your design?
+
+</div>
+</div>
+<div class="about-image">
+
+<img class="alignnone size-full wp-image-1148" src="../files/2016/06/ideation_and_concepts.png" alt="ideation_and_concepts" width="250" height="250" />
+
+</div>
+</div>
+<div class="about-section5-row">
+<div class="about-logo">
+
+<img class="aligncenter size-full wp-image-1156" src="../files/2016/06/ideation_and_concepts_large.png" alt="ideation_and_concepts_large" width="106" height="118" />
+
+</div>
+<div class="about-description">
+
+<span class="about-ideation-concepts"> Ideation &amp; concepts </span>
+<div class="about-description-text">
+
+Define your challenge’s vision, objectives, scenarios, scopes and constraints.Ask yourself questions that relate to the why, what and who of your challenge and sense what trends, opportunities and possible constraints might affect it in the process.
+
+</div>
+</div>
+<div class="about-image">
+
+<img class="alignnone size-full wp-image-1147" src="../files/2016/06/frame_insights.png" alt="frame_insights" width="250" height="250" />
+
+</div>
+</div>
+<div class="about-section5-row">
+<div class="about-logo"><img class="aligncenter size-full wp-image-1158" src="../files/2016/06/prototype_and_test_large.png" alt="prototype_and_test_large" width="120" height="48" /></div>
+<div class="about-description">
+
+<span class="about-prototype-test"> Prototype &amp; Test </span>
+<div class="about-description-text">
+
+Ways to get from concepts to production, prototyping and testing.Are your ideas valid? Can you create working prototypes from your concepts? How can you test your prototypes with users? How do you get the best and most realistic test results?
+
+</div>
+</div>
+<div class="about-image">
+
+<img class="alignnone size-full wp-image-1150" src="../files/2016/06/prototype_and_test.png" alt="prototype_and_test" width="250" height="250" />
+
+</div>
+</div>
+</div>
+</div>
+<div class="mobile-using-toolkit-container">
+<div class="about-section1">
+
+<span class="about-header"> About </span>
+<div id="img-text"><img class="size-full wp-image-1151 aligncenter" src="../files/2016/06/about.jpg" alt="about" width="300" height="auto" />
+<span class="inline-img">
+The MediaLAB Amsterdam Design Method Toolkit enables you to get started and enrich your design process. A collection of design and research methods: categorised to help you select, time based to help you plan. Plan and execute your design research, ideation, experimentation and creation within short iterations.
+</span></div>
+</div>
+<div class="about-section2">
+
+<span class="about-header"> Agile based </span>
+<div id="section2-img"><img class="alignnone size-medium wp-image-1144" src="../files/2016/06/agile_world-300x236.png" alt="agile_world" width="300" height="236" /></div>
+<div id="section2-text">
+
+Detailed task-based descriptions help teams divide and assign tasks between team members. This makes the Design Method Toolkit perfect for lean, agile environments and multidisciplinary teams.Use the Design Method Toolkit in combination with the DMT Plan Board, your Scrum Board and experience it’s full potential!
+
+</div>
+</div>
+<div class="about-section3">
+
+<span class="about-header"> Select</span>
+<div class="about-section3-img"><img class="alignright wp-image-1241 size-full" src="../files/2016/06/select.png" alt="select" width="292" height="348" /></div>
+<span class="about-header-r"> Execute </span>
+<div class="about-section3-img"><img class="size-full wp-image-1239 aligncenter" src="../files/2016/06/execute.png" alt="execute" width="272" height="367" /></div>
+</div>
+<div class="about-section4">
+<div class="about-section4-1"></div>
+<div class="about-section4-1"></div>
+<div class="about-section4-1">In an ideal design process there is a constant flow between researching and creating. That is why these cards are divided into two types, Research and Create.</div>
+<span class="about-research"> Research </span>
+<div class="about-section4-3-research">Research focuses on gathering information and making sense of it.
+The results of the research methods will give you insights that will supply new design criteria.</div>
+<div class="about-section4-2"><img class="aligncenter size-full wp-image-1162" src="../files/2016/06/translate_vertical.png" alt="translate_vertical" width="85" height="413" /></div>
+<div class="about-section4-3-create">Create focuses on having a tangible object (report, visualization, prototype, etc) that you can show.
+The output of the create methods may propose new research material.</div>
+<span class="about-create"> Create </span>
+
+</div>
+<div class="about-section5">
+<div class="about-section5-row"><span class="about-know-user">
+<img class="aligncenter size-full wp-image-1168" src="../files/2016/06/know_user_small.png" alt="know_user_small" width="16" height="20" /> Know User
+</span>
+<div class="about-description">
+<div class="about-image"><img class="alignnone size-full wp-image-1149" src="../files/2016/06/know_user.png" alt="know_user" width="120" height="auto" /></div>
+<div class="about-description-text">
+
+Explore the background of the project, the context, the situation, location, time and social/technical context.Get to know the people involved, their wants, goals, needs and feelings.
+
+</div>
+</div>
+</div>
+<div class="about-section5-row"><span class="about-define-intentions">
+<img class="aligncenter size-full wp-image-1165" src="../files/2016/06/define_intentions_small.png" alt="define_intentions_small" width="20" height="20" />
+Define Intentions
+</span>
+<div class="about-description">
+<div class="about-image"><img class="alignnone size-full wp-image-1146" src="../files/2016/06/define_intentions.png" alt="define_intentions" width="120" height="auto" /></div>
+<div class="about-description-text">
+
+Define your challenge’s vision, objectives, scenarios, scopes and constraints.Ask yourself questions that relate to the why, what and who of your challenge and sense what trends, opportunities and possible constraints might affect it in the process.
+
+</div>
+</div>
+</div>
+<div class="about-section5-row">
+
+<span class="about-frame-insights"> <img class="aligncenter size-full wp-image-1166" src="../files/2016/06/frame_insights_small.png" alt="frame_insights_small" width="20" height="20" /> Frame insights </span>
+<div class="about-description">
+<div class="about-image"><img class="alignnone size-full wp-image-1148" src="../files/2016/06/ideation_and_concepts.png" alt="ideation_and_concepts" width="120" height="auto" /></div>
+<div class="about-description-text">
+
+Draw conclusions from your research and make lessons learned explicit. Try to narrow down the information.Can you extract the most valuable and important elements from your insights? What impact will these insights have on your design?
+
+</div>
+</div>
+</div>
+<div class="about-section5-row">
+
+<span class="about-ideation-concepts"> <img class="aligncenter size-full wp-image-1167" src="../files/2016/06/ideation_and_concepts_small.png" alt="ideation_and_concepts_small" width="18" height="20" /> Ideation &amp; concepts </span>
+<div class="about-description">
+<div class="about-image"><img class="alignnone size-full wp-image-1147" src="../files/2016/06/frame_insights.png" alt="frame_insights" width="120" height="auto" /></div>
+<div class="about-description-text">
+
+Define your challenge’s vision, objectives, scenarios, scopes and constraints.Ask yourself questions that relate to the why, what and who of your challenge and sense what trends, opportunities and possible constraints might affect it in the process.
+
+</div>
+</div>
+</div>
+<div class="about-section5-row">
+
+<span class="about-prototype-test"> <img class="aligncenter size-full wp-image-1169" src="../files/2016/06/prototype_and_test_small.png" alt="prototype_and_test_small" width="36" height="14" /> Prototype &amp; Test </span>
+<div class="about-description">
+<div class="about-image"><img class="alignnone size-full wp-image-1150" src="../files/2016/06/prototype_and_test.png" alt="prototype_and_test" width="120" height="auto" /></div>
+<div class="about-description-text">
+
+Ways to get from concepts to production, prototyping and testing.Are your ideas valid? Can you create working prototypes from your concepts? How can you test your prototypes with users? How do you get the best and most realistic test results?
+
+&nbsp;
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="addtoany_share_save_container addtoany_content_bottom">
+<div class="a2a_kit addtoany_list a2a_target" id="wpa2a_1"><a class="a2a_button_facebook" href="http://www.addtoany.com/add_to/facebook?linkurl=http%3A%2F%2Fmedialabamsterdam.com%2Ftoolkit%2Fusing-the-toolkit%2F&amp;linkname=Using%20the%20toolkit" title="Facebook" rel="nofollow" target="_blank"><img src="../wp-content/plugins/add-to-any/icons/facebook.png" width="16" height="16" alt="Facebook"/></a><a class="a2a_button_twitter" href="http://www.addtoany.com/add_to/twitter?linkurl=http%3A%2F%2Fmedialabamsterdam.com%2Ftoolkit%2Fusing-the-toolkit%2F&amp;linkname=Using%20the%20toolkit" title="Twitter" rel="nofollow" target="_blank"><img src="../wp-content/plugins/add-to-any/icons/twitter.png" width="16" height="16" alt="Twitter"/></a><a class="a2a_button_linkedin" href="http://www.addtoany.com/add_to/linkedin?linkurl=http%3A%2F%2Fmedialabamsterdam.com%2Ftoolkit%2Fusing-the-toolkit%2F&amp;linkname=Using%20the%20toolkit" title="LinkedIn" rel="nofollow" target="_blank"><img src="../wp-content/plugins/add-to-any/icons/linkedin.png" width="16" height="16" alt="LinkedIn"/></a><a class="a2a_dd addtoany_share_save" href="https://www.addtoany.com/share" style="background:url('../wp-content/plugins/add-to-any/favicon.png') no-repeat scroll 4px 0px;padding:0 0 0 25px;display:inline-block;height:16px;vertical-align:middle"><span>Share</span></a><br />
+<script type="text/javascript"><!--
+wpa2a.script_load();
+//--></script>
+</div>
+</div>
+
+				
+			</div>
+
+
+			<footer class="footer" role="contentinfo">
+    			
+	
+					<div class="footer_text">
+						<p>share the toolkit</p>
+					</div>
+
+					<div class="share_bar">	
+							
+							<div class="a2a_kit a2a_kit_size_32 addtoany_list"><a class="a2a_button_facebook" href="http://www.addtoany.com/add_to/facebook?linkurl=http%3A%2F%2Fmedialabamsterdam.com%2Ftoolkit&amp;linkname=Design%20Methods%20-%20toolkit" title="Facebook" rel="nofollow" target="_blank"><img src="../wp-content/plugins/add-to-any/icons/facebook.png" width="16" height="16" alt="Facebook"/></a><a class="a2a_button_twitter" href="http://www.addtoany.com/add_to/twitter?linkurl=http%3A%2F%2Fmedialabamsterdam.com%2Ftoolkit&amp;linkname=Design%20Methods%20-%20toolkit" title="Twitter" rel="nofollow" target="_blank"><img src="../wp-content/plugins/add-to-any/icons/twitter.png" width="16" height="16" alt="Twitter"/></a><a class="a2a_button_linkedin" href="http://www.addtoany.com/add_to/linkedin?linkurl=http%3A%2F%2Fmedialabamsterdam.com%2Ftoolkit&amp;linkname=Design%20Methods%20-%20toolkit" title="LinkedIn" rel="nofollow" target="_blank"><img src="../wp-content/plugins/add-to-any/icons/linkedin.png" width="16" height="16" alt="LinkedIn"/></a></div>						
+					</div>
+
+					    
+				
+
+				<div id="logo_acin">
+					<img width="70px" src="../wp-content/themes/DMT-Theme/library/images/ACIN_logo.svg" alt="back"></a>
+				</div>
+
+			</footer>
+
+      <div class="mobile-footer">
+      <ul class="mobile-footer-nav">
+        <a href="index.html"><li id="aboutFooterItem"><span>about</span></li></a>
+        <!--a href="http://medialabamsterdam.com/toolkit"><li id="filterFooterItem"><span>filter</span></li></a-->
+        <li id="searchFooterItem"><span>search</span></li>
+      </ul>
+    </div>
+
+		</div>
+
+				
+<script type="text/javascript"><!--
+wpa2a.targets=[
+{title:"Using the toolkit",url:"http://medialabamsterdam.com/toolkit/using-the-toolkit/"}];
+wpa2a.html_done=true;if(wpa2a.script_ready&&!wpa2a.done)wpa2a.init();wpa2a.script_load();
+//--></script>
+<script type='text/javascript' src='../wp-includes/js/comment-reply.min.js'></script>
+<script type='text/javascript' src='../wp-content/themes/DMT-Theme/library/js/scripts.js'></script>
+
+	</body>
+
+</html> <!-- end of site. what a ride! -->
